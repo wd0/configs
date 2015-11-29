@@ -1,0 +1,31 @@
+*background: #1e1e1e
+*foreground: #bbbbbb
+! Black + DarkGrey
+*color0:  #000000
+*color8:  #555555
+! Red
+*color1:  #D85252
+*color9:  #FF876F
+! Green
+*color2:  #5EC95E
+*color10: #91FF91
+! Yellow
+*color3:  #ff8a00
+*color11: #FFFFA9
+! Blue
+*color4:  #8085FF
+*color12: #9CA0FF
+! Mangenta
+*color5:  #D66FFF
+*color13: #E093FF
+! Cyan
+*color6:  #6CD8C8
+*color14: #B0FFF3
+! LightGrey + White
+*color7:  #cccccc
+*color15: #ffffff
+ 
+URxvt.scrollBar: off
+ 
+! urxvt.font: -*-terminus-small-r-*-*-8-*-*-*
+urxvt*font: xft:Terminus:pixelsize=8
