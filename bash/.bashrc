@@ -5,11 +5,14 @@ export LANGUAGE=en_US.UTF-8
 alias aps='apt-cache search'
 alias vi='vim'
 alias tmux='tmux -2'
+alias ls='ls --color' 
 alias l='ls -la'
 
 export TERM=xterm-256color
 export EDITOR=vi 
+export PAGER=less
 export PS1='\e[0;34m\u@\h\e[m\e[0;31m\w\e[m\e[1;31m$ \e[m'
+export PATH="$PATH:~/bin"
 
 alias python=python3
 
